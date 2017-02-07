@@ -1,0 +1,150 @@
+.page_container {
+	width: 960px;
+	padding: 0;
+	margin: 20px auto 0;
+}
+
+.gallery_credit {
+	width: 425px;
+	float: left;
+	padding: 0;
+	margin: 0 0 10px 15px;
+}
+
+.gallery_type {
+	width: 500px;
+	float: left;
+	padding-top: 4px;
+	margin-bottom: 10px;
+	text-align: right; 
+}
+
+body {
+	background-color: #666;
+	color: #fff;
+	font-size: 0.75em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	padding: 0;
+	margin: 0;
+	letter-spacing: 2px;
+	font-size: 1.75em;
+	color: white;
+	font-weight: normal;
+}
+h2 {
+	padding: 0;
+	margin: 0;
+	letter-spacing: 23px;
+	font-size: 1.25em;
+	color: #aaa;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+a img {
+	border: none;
+}
+.gallery_top {
+	height: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+.gallery_content {
+	padding: 15px 0 1px 0;
+	margin: 0;
+}
+
+.gallery_thumbnails {
+	width: 500px;
+	float: left;
+	padding: 0;
+	margin-left: 40px;
+}
+.gallery_thumbnails a{
+	display: block;
+	width: 75px;
+	height: 75px;
+	float: left;
+	border: 1px solid #aaa;
+	padding: 0;
+	margin: 0 23px 23px 0;
+}
+.gallery_thumbnails a:hover{
+	border: 1px solid #fff;
+}
+.gallery_thumbnails a.selected{
+	border: 1px solid #fff;
+}
+.gallery_preview {
+	width: 375px;
+	height: 375px;
+	float: left;
+}
+.gallery_preview a{
+	width: 375px;
+	height: 375px;
+	padding: 0;
+	margin: 0;
+	display: block;
+	border: 1px solid #ccc;
+}
+.gallery_preview a:hover{
+	border: 1px solid #fff;
+}
+
+
+.gallery_contact {
+	width: 477px;
+	height: 60px;
+	float: left;
+	padding-right: 23px;
+	margin-left: 40px;
+	text-align: right;
+}
+
+a.email {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-right: 30px;
+	margin: 0;
+}
+
+
+.gallery_caption {
+	width: 375px;
+	float: left;
+	padding: 0;
+	margin: 0;
+	background: url('../images/template/link_email.png') no-repeat fixed right 0;
+}
+p {
+	color: #aaa;
+	margin-bottom: 12px;
+}
+a.zoom {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 0 5px 25px ;
+	margin: 0;
+	background: url('../images/template/link_zoom.png') no-repeat;
+	background-size: 20px 20px;
+	font-size: 1.5em;
+}
+
+.gallery_preload_area {
+	display: none;
+}
+
+.gallery_bottom {
+	height: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+.clear_both {
+	line-height: 1px;
+	clear: both;
+}
